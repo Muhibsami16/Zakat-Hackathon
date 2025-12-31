@@ -1,0 +1,34 @@
+﻿node : file:///E:/Gravity-Zaka
+t-Donation/backend/index.js:19
+At line:1 char:1
++ node index.js 2>&1 | 
+Out-File -FilePath error.log 
+-Encoding UTF8
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: (file:///E  
+  :/Grav...end/index.js:19:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+  app.get('/', (req, res) => {
+  ^
+
+ReferenceError: app is not 
+defined
+    at file:///E:/Gravity-Zaka
+t-Donation/backend/index.js:19
+:3
+    at ModuleJob.run (node:int
+ernal/modules/esm/module_job:3
+29:25)
+    at async onImport.tracePro
+mise.__proto__ (node:internal/
+modules/esm/loader:644:26)
+    at async asyncRunEntryPoin
+tWithESMLoader (node:internal/
+modules/run_main:117:5)
+
+Node.js v22.17.0
